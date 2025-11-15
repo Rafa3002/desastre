@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+sqlmodel
+requests
+APScheduler
+pywebpush
+python-dotenv
+twilio
+email-validator
+PyPDF2
+cryptography
+aiohttp
+asyncio
+twilio==9.8.6

@@ -1,0 +1,80 @@
+/* Debug Info */
+.debug-info {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  padding: 10px 15px;
+  margin: 10px;
+  font-size: 0.8rem;
+  color: #6c757d;
+  font-family: 'Courier New', monospace;
+}
+
+/* Test Buttons */
+.test-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.test-btn {
+  flex: 1;
+  padding: 10px;
+  background: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background 0.2s;
+}
+
+.test-btn:hover {
+  background: #5a6268;
+}
+
+/* Coord Inputs */
+.coord-input {
+  width: 80px;
+  padding: 4px 8px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+/* Alert items simplificados */
+.alert-item-improved {
+  background: white;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-left: 4px solid #007bff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.alert-header-improved {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.alert-title-improved {
+  font-weight: 600;
+  color: #2c3e50;
+  flex: 1;
+}
+
+.alert-description-improved {
+  color: #5a6c7d;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+.alert-meta-improved {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: #6c757d;
+}
